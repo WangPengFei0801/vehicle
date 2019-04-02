@@ -1,0 +1,166 @@
+[
+  {
+    "id": 1,
+    "name": "系统管理",
+    "icon": "&#xe69f;",
+    "url": "",
+    "children": [
+      {
+        "id": 17,
+        "name": "用户管理",
+        "icon": "&#xe666;",
+        "url": "/system/user",
+        "parentId": 1,
+        "title": "用户管理"
+      },
+      {
+        "id": 2,
+        "name": "权限菜单",
+        "icon": "&#xe62d;",
+        "url": "/system/res",
+        "parentId": 1,
+        "title": "权限菜单"
+      },
+      {
+        "id": 12,
+        "name": "角色管理",
+        "icon": "&#xe633;",
+        "url": "/system/role",
+        "parentId": 1,
+        "title": "角色管理"
+      },
+      {
+        "id": 13,
+        "name": "设备管理",
+        "icon": "&#xe673;",
+        "url": "/system/device",
+        "parentId": 1,
+        "title": "设备管理"
+      }
+    ],
+    "title": "系统管理"
+  },
+  {
+    "id": 2333,
+    "name": "模块管理",
+    "icon": "&#xe89f;",
+    "url": "",
+    "parentId": 2334,
+    "title": "模块管理",
+    "children":[ {
+      "id": 401,
+      "name": "菜单分配",
+      "icon": "&#xe6b1;",
+      "url": "/resource",
+      "parentId": 2333,
+      "title": "菜单分配"
+    }]
+  },
+  {
+    "id": 2336,
+    "name": "安全管理",
+    "icon": "&#xe615;",
+    "url": "",
+    "parentId": 2334,
+    "title": "安全管理",
+    "children":[{
+      "id": 405,
+      "name": "参数配置",
+      "icon": "&#xe7a5;",
+      "url": "/safe/parameters",
+      "parentId": 2336,
+      "title": "参数配置"
+    }]
+  },
+  {
+    "id": 2337,
+    "name": "数据控制",
+    "icon": "&#xe694;",
+    "url": "",
+    "parentId": 2337,
+    "title": "数据控制",
+    "children":[{
+      "id": 406,
+      "name": "业务数据",
+      "icon": "&#xe629;",
+      "url": "/datas",
+      "parentId": 2337,
+      "title": "业务数据"
+    }]
+  },
+  {
+    "id": 2338,
+    "name": "违章管理",
+    "icon": "&#xe653;",
+    "url": "",
+    "parentId": 2338,
+    "title": "违章管理",
+    "children":[{
+      "id": 407,
+      "name": "违章数据",
+      "icon": "&#xe636;",
+      "url": "/violation",
+      "parentId": 2338,
+      "title": "违章数据"
+    }]
+  },
+  {
+    "id": 2335,
+    "name": "驾驶证业务",
+    "icon": "&#xe659;",
+    "url": "",
+    "parentId": 2334,
+    "title": "驾驶证业务",
+    "children":[{
+      "id": 403,
+      "name": "未审核",
+      "icon": "&#xe664;",
+      "url": "/drivers/unchecked",
+      "parentId": 2335,
+      "title": "未审核"
+    },{
+      "id": 404,
+      "name": "已审核",
+      "icon": "&#xe62a;",
+      "url": "/drivers/checked",
+      "parentId": 2335,
+      "title": "已审核"
+    },{
+      "id": 405,
+      "name": "未提交",
+      "icon": "&#xe607;",
+      "url": "/drivers/unsubmit",
+      "parentId": 2335,
+      "title": "未提交"
+    }]
+  },
+  {
+    "id": 2339,
+    "name": "行驶证业务",
+    "icon": "&#xe63b;",
+    "url": "",
+    "title": "行驶证业务",
+    "children":[{
+      "id": 409,
+      "name": "未审核",
+      "icon": "&#xe664;",
+      "url": "/vehicles/unchecked",
+      "parentId": 2339,
+      "title": "未审核"
+    },{
+      "id": 410,
+      "name": "已审核",
+      "icon": "&#xe62a;",
+      "url": "/vehicles/checked",
+      "parentId": 2339,
+      "title": "已审核"
+    },{
+      "id": 411,
+      "name": "待提交",
+      "icon": "&#xe607;",
+      "url": "/drivers/unsubmit",
+      "parentId": 2339,
+      "title": "待提交"
+    }]
+  }
+]

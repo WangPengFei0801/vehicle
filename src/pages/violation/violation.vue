@@ -1,0 +1,15 @@
+
+"departmentId": "部门id",
+"glbm":         "管理部门编码",
+"shortName":      "部门简称",
+"fullName":         "部门全称",
+"zsdw":             "执收单位编码",
+"merchantId":       "商户编号（通联）",
+"merchantName":          "商户名称（通联）",
+"payAppId":           "appid（通联）",
+"key":              "key（通联）",
+"notifyUrl":        "回调url",
+"yhdm":           "用户代码",
+"address":          "部门地址",
+"jbr":            "经办人",
+"cljg":            "处理机构"

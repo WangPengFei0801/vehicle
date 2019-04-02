@@ -1,0 +1,133 @@
+ [{
+  "id": 17,
+  "name": "用户管理",
+  "icon": "",
+  "url": "/user",
+  "parentId": 1
+}, {
+  "id": 1,
+  "name": "系统管理",
+  "icon": "gear-b",
+  "url": ""
+}, {
+  "id": 233,
+  "name": "FormDynamic",
+  "icon": "",
+  "url": "/users/formDynamic",
+  "parentId": 232
+}, {
+  "id": 2,
+  "name": "权限菜单",
+  "icon": "",
+  "url": "/res",
+  "parentId": 1
+}, {
+  "id": 232,
+  "name": "Component",
+  "icon": "help-buoy"
+}, {
+  "id": 234,
+  "name": "CrudView",
+  "icon": "",
+  "url": "/users/crudView",
+  "parentId": 232
+}, {
+  "id": 235,
+  "name": "CrudTable",
+  "icon": "",
+  "url": "/users/crudTable",
+  "parentId": 232
+}, {
+  "id": 12,
+  "name": "角色管理",
+  "icon": "",
+  "url": "/role",
+  "parentId": 1
+}, {
+  "id": 236,
+  "name": "CrudTreeView",
+  "icon": "",
+  "url": "/users/crudTreeView",
+  "parentId": 232
+}, {
+  "id": 7,
+  "name": "基础字典",
+  "icon": "",
+  "url": "/dict",
+  "parentId": 1
+}, {
+  "id": 237,
+  "name": "CrudTree",
+  "icon": "",
+  "url": "/users/crudTree",
+  "parentId": 232
+}, {
+  "id": 238,
+  "name": "DataSelect",
+  "icon": "",
+  "url": "/users/dataSelect",
+  "parentId": 232
+}, {
+  "id": 22,
+  "name": "系统日志",
+  "url": "/sysLog",
+  "parentId": 1
+}, {
+  "id": 239,
+  "name": "ImgUpload",
+  "icon": "",
+  "url": "/users/imgUpload",
+  "parentId": 232
+}, {
+  "id": 27,
+  "name": "接口测试",
+  "url": "/request",
+  "parentId": 1
+}, {
+  "id": 240,
+  "name": "PopupSelect",
+  "icon": "",
+  "url": "/users/popupSelect",
+  "parentId": 232
+}, {
+  "id": 28,
+  "name": "附件管理",
+  "url": "/attach",
+  "parentId": 1
+}, {
+  "id": 231,
+  "name": "代码生成",
+  "icon": "",
+  "url": "/generator",
+  "parentId": 1
+}, {
+  "id": 245,
+  "name": "定时任务",
+  "icon": "",
+  "url": "/schedule",
+  "parentId": 1
+}, {
+  "id": 241,
+  "name": "TreeSelect",
+  "icon": "",
+  "url": "/users/treeSelect",
+  "parentId": 232
+}, {
+  "id": 242,
+  "name": "LocalTable",
+  "icon": "",
+  "url": "/users/localTable",
+  "parentId": 232
+}, {
+  "id": 243,
+  "name": "PhotoViewer",
+  "icon": "",
+  "url": "/users/photoViewer",
+  "parentId": 232
+}, {
+  "id": 244,
+  "name": "PermsValid",
+  "icon": "",
+  "url": "/users/permsValid",
+  "parentId": 232
+}]

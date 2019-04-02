@@ -1,0 +1,40 @@
+{
+  "message": "请求成功",
+  "code": 200,
+  "data": [
+    {
+      "ID": "809F9A85558F4DF6853F5520AB32F175",
+      "PARENT_ID": 0,
+      "name": "植物(自定义图标)",
+      "lay_icon_open": "/img/1_open.png",
+      "lay_icon_close": "/img/1_close.png"
+    },
+    {
+      "ID": "57B516A159614B33875E40518997A0C4",
+      "PARENT_ID": "809F9A85558F4DF6853F5520AB32F175",
+      "name": "大叶榕(自定义图标)",
+      "lay_icon": "/img/4.png"
+    },
+    {
+      "ID": "DA3717704A7E446E85E40369DF032A01",
+      "PARENT_ID": null,
+      "name": "动物(默认单选)",
+      "lay_is_radio": true
+    },
+    {
+      "ID": "A733CFD60C174370A36E0BAB8031C669",
+      "PARENT_ID": "DA3717704A7E446E85E40369DF032A01",
+      "name": "大笨象"
+    },
+    {
+      "ID": "51B43346080B4ADD9B3748C12585E648",
+      "PARENT_ID": null,
+      "name": "水果"
+    },
+    {
+      "ID": "91D4AADEF60D48878BDFE1D72514692C",
+      "PARENT_ID": "51B43346080B4ADD9B3748C12585E648",
+      "name": "苹果"
+    }
+  ]
+}
