@@ -204,7 +204,7 @@
             <input type="text" name="" id="add_auth_time" placeholder="选择分配时间起止" readonly class="layui-input">
         </div>
         <div class="layui-form-item d_i_b w-120">
-          <select name="vehicle" lay-verify="required" lay-search="">
+          <select name="vehicle" lay-verify="required" lay-search="" id="add_auth_isIp">
             <option value="">检测IP</option>
             <option value="1">是</option>
             <option value="0">否</option>
@@ -247,7 +247,7 @@
             <form action="" class="layui-form">
               <div class="layui-form-item mb0">
                   <input type="radio" value="1" name="is_ip" :chcked="val.isIp==1" title="YES">
-                  <input type="radio" value="0" name="is_ip" :chcked="val.isIp==1" title="NO">
+                  <input type="radio" value="0" name="is_ip" :chcked="val.isIp==0" title="NO">
               </div>
             </form>
           </td>
@@ -599,7 +599,18 @@
                       var elem = $(obj.elem)
                       var status = obj.elem.checked;
                       if(status){
-                        console.log(elem.parents('td').siblings('td[data-field="count"]').text());
+                        var count = $('#add_auth_count').val();
+                        var isIp = $('#add_auth_isIp').val();
+                        console.log(isIp)
+                        if(count!=''){
+                          elem.parents('td').siblings('td.add-auth-count').find('input').val(count)
+                        }
+                        if(isIp==1){
+                          elem.parents('td').siblings('td.add-auth-isip').find('input').prop('checked',true)
+                        }else {
+                          elem.parents('td').siblings('td.add-auth-isip').find('input').prop('checked',false)
+                        }
+                        form.render('radio')
                       }
                     })
                   },
